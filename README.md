@@ -5,4 +5,4 @@
 
 # <a href="https://ajuteixeira.github.io/conversor-de-temperatura/" target="_blank">Acesse o site aqui :)</a>
 
-<img src="https://www.imagemhost.com.br/images/2023/02/07/print.png" style="width:100%;">
+<img src="https://www.imagemhost.com.br/images/2023/02/07/printf896a22dcc126bd5.png" style="width:100%;">
