@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conversor de Temperatura</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <h1>Conversor de Temperatura</h1>
+        <h2>De Celsius para Fahrenheit e vice-versa :)</h2>
+      </header>
+      <section class="conversor">
+        <input type="radio" id="CtoF" />
+        <label for="CtoF">Celsius para Fahrenheit</label><br />
+        <input type="radio" id="FtoC" />
+        <label for="FtoC">Fahrenheit para Celsius</label><br />
+        <label for="temperaturaAtual">Temperatura atual:</label>
+        <input
+          type="number"
+          id="temperaturaAtual"
+          class="temperaturaAtual"
+        /><br />
+        <button type="submit" onclick="converteTemperatura()">Converter</button
+        ><br />
+        <hr />
+        <label for="temperaturaConvertida">Temperatura convertida:</label><br />
+        <div id="temperaturaConvertida" class="temperaturaConvertida"></div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    Made with ♡ by
+    <a href="https://github.com/ajuteixeira">Juliana Teixeira</a> | 2023
+  </footer>
+</html>

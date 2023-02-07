@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #726599;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.cabecalho {
+  padding-bottom: 1.7rem;
+  text-align: center;
+  font-family: "Martian Mono", monospace;
+  color: #fefefe;
+}
+
+.cabecalho h2 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.cabecalho h1 {
+  margin-bottom: 0;
+}
+
+.conversor {
+  width: 500px;
+  padding: 5rem 3rem;
+  font-size: 18px;
+  line-height: 2.3rem;
+  text-align: center;
+  color: #444;
+  background-color: #fcedda;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.temperaturaAtual {
+  width: 7rem;
+  height: 1.7rem;
+  font-family: "Martian Mono", monospace;
+  font-size: 17px;
+  text-align: center;
+  color: #666;
+  background-color: #fefefe;
+  border: none;
+}
+
+.temperaturaAtual:focus {
+  outline: none;
+}
+
+button {
+  padding: 0.7rem;
+  margin: 1rem;
+  font-family: "Martian Mono", monospace;
+  font-size: 1rem;
+  border: none;
+  border-radius: 2rem;
+  color: #e9e1ff;
+  background-color: #726599;
+}
+
+button:hover {
+  opacity: 90%;
+}
+
+.temperaturaConvertida {
+  display: inline-block;
+  font-family: "Martian Mono", monospace;
+  font-size: 18px;
+  color: #726599;
+  background-color: #f8e6ff;
+}
+
+footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 1rem 0 1rem 0;
+  position: absolute;
+  text-align: center;
+  color: #444;
+  background-color: #dfc4ee;
+}
+
+footer a {
+  color: #726599;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 85%;
+}
